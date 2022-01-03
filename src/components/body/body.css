@@ -1,0 +1,4 @@
+.body {
+  padding: 12px; /*in header it was 12 px so for consistency it is 12px here too*/
+  padding-bottom: 36px;
+}

@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  /* background-color: aquamarine; */
+  justify-content: space-between; /* This will give equal space between the content inside header class*/
+  flex: 1; /*flex 1 means Stretch to all the space that is available */
+  padding: 12px;
+  position: relative;
+  align-items: center;
+}
+
+.menu {
+  /* background-color: white; */
+  display: flex;
+  flex: 1;
+  justify-content: flex-end; /* Justify content at the end */
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.web-menu {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  font-size: 36px;
+  color: blueviolet;
+  font-weight: 800;
+}
+
+/*When the screen size is reduced below 720 following css will be used and mobile-menu will be visible */
+/*display:none removes the space from the screen or removed from the DOM tree*/
+
+@media only screen and (max-width: 720px) {
+  .mobile-menu {
+    display: flex;
+  }
+
+  .web-menu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+}

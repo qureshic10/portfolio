@@ -1,0 +1,42 @@
+export const WorkData = [
+  {
+    company: "Technische Universität Clausthal",
+    designation: "Student",
+    dateJoining: "October-2021",
+    dateEnd: "Present",
+    companyLogo: require("../assets/tu-clausthal.jpg"),
+    work: "I am currently pursuing my Masters in Computer Science",
+  },
+  {
+    company: "Safenah Alrwad",
+    designation: "Senior Software Engineer",
+    dateJoining: "October-2015",
+    dateEnd: "October-2021",
+    companyLogo: require("../assets/enseyab.jpg"),
+    work: "Managing multiple production and development environment. Troubleshooting problems reported from developers and End-Users. Work with clients to understand new requirements and develop the technical specifications. Develop .Net applications and manage development team. Conduct technical tests and interviews during hiring and selection of technical resources. ",
+  },
+  {
+    company: "Al-Hokail",
+    designation: "Computer Programmer",
+    dateJoining: "July-2012",
+    dateEnd: "September-2015",
+    companyLogo: require("../assets/hokail.png"),
+    work: "Design and implement applications, development and deployment strategies. Develop .Net applications and manage development team",
+  },
+  {
+    company: "SofDigital Systems",
+    designation: "Senior Software Engineer",
+    dateJoining: "August-2011",
+    dateEnd: "July-2012",
+    companyLogo: require("../assets/SofDigital.jpg"),
+    work: "Work with a devlopment team to build various asp.net applications. Source control management with Team Foundation Server and Visual SVN. Participate in code reviews for coding standards.",
+  },
+  {
+    company: "Sidat Hyder Morshed Associates",
+    designation: "Analyst Programmer",
+    dateJoining: "October-2008",
+    dateEnd: "July-2011",
+    companyLogo: require("../assets/SidatHyder.jpg"),
+    work: "Work with the .NET development team to build application such as HRMS, Recruitment Protal and Makro HHT Solutions",
+  },
+];
