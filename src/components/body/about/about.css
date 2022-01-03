@@ -1,0 +1,40 @@
+.about {
+  padding-bottom: 48px;
+}
+
+.about-top {
+  display: flex; /* This is flex here so that the Image and content place in the same row. there are 2 div inside this about-info and about-photo*/
+  justify-content: space-between; /* so that the content strech to the end of the div*/
+  align-items: center;
+}
+
+.picture {
+  height: 420px;
+}
+
+.about-info {
+  font-size: 24px;
+}
+
+.info-name {
+  color: blue;
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 720px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picture {
+    height: 280px;
+  }
+
+  .about-info {
+    font-size: 20px;
+  }
+  .info-name {
+    font-size: 26px;
+  }
+}

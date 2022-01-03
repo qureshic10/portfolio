@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+/* media queries are queries that give you the ability to create responsiveness 
+in the website by creating different styles for different screens */
+
+/* For screens smaller than laptops */
+@media only screen and (max-width: 1024px) {
+  .home {
+    width: 90%;
+  }
+}
+
+/* For screens smaller than tablet */
+
+@media only screen and (max-width: 512px) {
+  .home {
+    width: 100%;
+  }
+}

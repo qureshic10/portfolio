@@ -1,0 +1,44 @@
+.work-card {
+  padding: 8px;
+  width: 100%; /* width: 45%; */ /* Design was out with this so had to comment*/
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.work-logo {
+  height: 80px;
+}
+
+.work-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.company-name {
+  color: teal;
+}
+
+.work-dates {
+  color: gray;
+}
+
+/* web-kit is used here to short the long description to 2 lines */
+.work-desc {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
+}
+
+@media only screen and (max-width: 720px) {
+  .work-card {
+    width: 100%;
+  }
+}

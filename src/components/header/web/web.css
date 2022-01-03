@@ -1,0 +1,31 @@
+.web {
+  display: flex;
+  flex: 1; /*take entire width*/
+  align-items: center;
+}
+
+.web-option {
+  font-size: 20px;
+  margin-right: 16px;
+  font-weight: 700;
+}
+
+.web-option a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.option-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+
+/* If you want to set some css for the last child of the class, you can do with the following
+In our case we don't want margin-right on the contact menu so we removed the margin.
+*/
+.web-option:last-child {
+  margin-right: 0px;
+}

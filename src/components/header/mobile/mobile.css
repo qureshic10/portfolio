@@ -1,0 +1,41 @@
+.mobile {
+  background-color: white;
+  height: 100vh;
+  width: 100vh;
+  /* Nothing will change on the screen and elements will not move around on the screen once we set position to absolute*/
+  position: absolute;
+  right: 0px;
+  top: -6px;
+  /*top and bottom 18px and left and right 12px*/
+  padding: 18px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+}
+
+.mobile-options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 24px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.mobile-option {
+  font-size: 24px;
+  margin: 12px 0px; /* top right bottom left*/
+  display: flex;
+}
+
+.mobile-option a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
